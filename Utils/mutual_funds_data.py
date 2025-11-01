@@ -267,7 +267,7 @@ class SIPCalculator:
         
         # SIP Future Value formula
         if monthly_return > 0:
-            future_value = monthly_amount * (((1 + monthly_return) ** months - 1) / monthly_return) * (1 + monthly_return)
+            future_value = monthly_amount * (((1 + monthly_return) ** months - 1) / monthly_return)
         else:
             future_value = monthly_amount * months
         
@@ -293,7 +293,7 @@ class SIPCalculator:
             months = year * 12
             
             if monthly_return > 0:
-                future_value = monthly_amount * (((1 + monthly_return) ** months - 1) / monthly_return) * (1 + monthly_return)
+                future_value = monthly_amount * (((1 + monthly_return) ** months - 1) / monthly_return)
             else:
                 future_value = monthly_amount * months
             
