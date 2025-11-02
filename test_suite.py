@@ -19,13 +19,13 @@ import sys
 import os
 
 # Add utils to path for testing
-sys.path.append('utils')
+sys.path.append('Utils')
 
-from utils.stock_data import StockDataManager
-from utils.technical_indicators import TechnicalIndicators
-from utils.ai_predictor import AIPredictor
-from utils.mutual_funds_data import MutualFundsManager, SIPCalculator
-from utils.market_data import *
+from stock_data import StockDataManager
+from technical_indicators import TechnicalIndicators
+from ai_predictor import AIPredictor
+from mutual_funds_data import MutualFundsManager, SIPCalculator
+from market_data import *
 
 
 class TestStockDataManager:
